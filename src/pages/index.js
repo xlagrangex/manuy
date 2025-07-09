@@ -8,6 +8,12 @@ import Tokenomics from "@components/home/Tokenomics";
 import Roadmap from "@components/home/Roadmap";
 import Info from "@components/home/Info";
 import Footer from "@components/common/Footer";
+import dynamic from "next/dynamic";
+
+const VideoCarousel = dynamic(
+	() => import("@components/home/VideoCarousel"),
+	{ ssr: false }
+);
 
 const Home = () => {
 	return (
@@ -47,6 +53,7 @@ const Home = () => {
 					<About />
 					<Tokenomics />
 					<Roadmap />
+					<VideoCarousel />
 					<Info />
 				</div>
 				<div className="bg-gradient-to-t from-[#2d3f49] to-black/10 absolute bottom-0 w-full h-[500px] sm:h-[200px]" />
