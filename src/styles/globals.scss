@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./index.scss";
+@import "../assets/fonts/fonts.scss";
+
+@layer base {
+	html {
+		font-family: "Gotham";
+		scroll-behavior: smooth;
+	}
+}
+
+* {
+	@apply antialiased;
+}
+
+.container {
+	@apply max-w-[1570px] w-full mx-auto px-5;
+}
