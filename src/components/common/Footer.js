@@ -18,9 +18,9 @@ const Footer = () => (
 				>
 					lilmanyu@proton.com
 				</Link>
-				<p className="text-lg text-white">
-					Copyright © 2023 Lil Manyu. All Rights Reserved.
-				</p>
+			</div>
+			<div className="text-center py-5 text-white border-t-2 border-white">
+				Copyright © 2025 Lil Manyu. All Rights Reserved.
 			</div>
 		</div>
 	</footer>

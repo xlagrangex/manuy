@@ -17,14 +17,6 @@ const menu = [
 		title: "Socials",
 		id: "socials",
 	},
-	{
-		title: "dApp",
-		id: "dapp",
-	},
-	{
-		title: "Studio",
-		id: "studio",
-	},
 ];
 
 const Header = () => {
@@ -56,22 +48,18 @@ const Header = () => {
 						</ul>
 						<div className="py-3 px-6 bg-white rounded-full flex items-center gap-5 md:px-3 md:gap-3">
 							<Link
-								href=""
+								href="https://t.me/oglilmanyucto"
 								target="_blank"
 								className="transition-all hover:opacity-80"
 							>
-								<Image
-									src={Telegram}
-									alt="Telegram"
-									width={20}
-								/>
+								<Telegram className="w-5 h-5" />
 							</Link>
 							<Link
-								href=""
+								href="https://x.com/ogmanyucto"
 								target="_blank"
 								className="transition-all hover:opacity-80"
 							>
-								<Image src={Twitter} alt="Twitter" width={28} />
+								<Twitter className="w-7 h-7" />
 							</Link>
 						</div>
 					</div>

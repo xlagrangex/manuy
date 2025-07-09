@@ -24,19 +24,19 @@ const Home = () => {
 						WE ARE LIL MANYU
 					</div>
 					<div className="text-base text-black mx-9 lg:mx-5 md:mx-3 font-bold">
-						0xdnsf0wienf9funw0emmf490weoi
+						0xd460a96231e2aa497ecA601F526913654Fbd4977
 					</div>
 					<div className="text-base text-black mx-9 lg:mx-5 md:mx-3 font-bold">
 						WE ARE LIL MANYU
 					</div>
 					<div className="text-base text-black mx-9 lg:mx-5 md:mx-3 font-bold">
-						0xdnsf0wienf9funw0emmf490weoi
+						0xd460a96231e2aa497ecA601F526913654Fbd4977
 					</div>
 					<div className="text-base text-black mx-9 lg:mx-5 md:mx-3 font-bold">
 						WE ARE LIL MANYU
 					</div>
 					<div className="text-base text-black mx-9 lg:mx-5 md:mx-3 font-bold">
-						0xdnsf0wienf9funw0emmf490weoi
+						0xd460a96231e2aa497ecA601F526913654Fbd4977
 					</div>
 				</Marquee>
 			</div>
